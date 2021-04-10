@@ -1,0 +1,13 @@
+{
+  "name": "@dorious/weather-app-bridge",
+  "version": "0.0.1",
+  "description": "The best weather app on the planet earth!",
+  "main": "index.js",
+  "author": "Dariusz Arciszewski",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/api",
+    "packages/app"
+  ]
+}
