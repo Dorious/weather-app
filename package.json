@@ -9,5 +9,13 @@
   "workspaces": [
     "packages/api",
     "packages/app"
-  ]
+  ],
+  "devDependencies": {
+    "@commitlint/cli": "^12.1.1",
+    "@commitlint/config-conventional": "^12.1.1",
+    "husky": "^6.0.0"
+  },
+  "scripts": {
+    "prepare": "husky install"
+  }
 }
