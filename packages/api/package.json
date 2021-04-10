@@ -9,7 +9,7 @@
     "generate": "yarn generate:locationforecast && yarn generate:opencage",
     "generate:locationforecast": "openapi-generator-cli generate -i swagger/locationforecast.json -g typescript-axios -o src/locationforecast --additional-properties=projectVersion=0.0.1 --additional-properties=projectName=@dorious/weather-api-locationforecast",
     "generate:opencage": "openapi-generator-cli generate -i https://opencagedata.com/swagger.yaml -g typescript-axios -o src/opencage --additional-properties=projectVersion=0.0.1 --additional-properties=projectName=@dorious/weather-api-opencage",
-    "build": "tsc src/index.ts --outDir dist --declaration"
+    "build": "yarn clean && tsc src/index.ts --outDir dist --declaration"
   },
   "devDependencies": {
     "@openapitools/openapi-generator-cli": "^2.2.5",
