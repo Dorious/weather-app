@@ -16,6 +16,8 @@ export const SearchInput = styled.input`
   box-shadow: 0 6px 10px rgba(0,0,0, 0.08);
   transition: all 0.5s ease;
   box-sizing: border-box;
+  appearance: none;
+  font-size: inherit;
 
   :focus {
     outline: none;

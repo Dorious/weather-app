@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Background should render properly 1`] = `
+<div>
+  <header
+    class="CurrentWeatherstyles__Container-sc-1ecxqgh-0 cMCauJ"
+  >
+    <h1
+      class="CurrentWeatherstyles__Header-sc-1ecxqgh-1"
+    >
+      Gdynia
+    </h1>
+    <h2
+      class="CurrentWeatherstyles__Sky-sc-1ecxqgh-2"
+    >
+      Partly cloudy
+    </h2>
+    <div
+      class="CurrentWeatherstyles__TemperatureContainer-sc-1ecxqgh-3 kHhmky"
+    >
+      <img
+        class="CurrentWeatherstyles__WeatherSymbol-sc-1ecxqgh-6 iajTFn"
+        src="/symbols/svg/partlycloudy_day.svg"
+      />
+      <span
+        class="CurrentWeatherstyles__Temperature-sc-1ecxqgh-4 bNwOVP"
+      >
+        15°
+      </span>
+    </div>
+    <p
+      class="CurrentWeatherstyles__FromTo-sc-1ecxqgh-5 fvNVDD"
+    >
+      From: 15° To: 15°
+    </p>
+  </header>
+</div>
+`;
