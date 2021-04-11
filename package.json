@@ -15,7 +15,15 @@
     "@commitlint/config-conventional": "^12.1.1",
     "husky": "^6.0.0"
   },
+  "lint-staged": {
+    "*.@(ts|tsx)": [
+      "yarn lint",
+      "yarn format"
+    ]
+  },
   "scripts": {
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "lint": "yarn workspace @dorious/weather-app run lint",
+    "format": "yarn workspace @dorious/weather-app run format"
   }
 }
