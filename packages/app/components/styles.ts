@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from 'styled-components'
 
 export const AbsoluteDiv = styled.div`
   position: absolute;
@@ -6,4 +6,4 @@ export const AbsoluteDiv = styled.div`
   left: 0;
   bottom: 0;
   right: 0;
-`;
+`

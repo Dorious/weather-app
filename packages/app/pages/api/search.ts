@@ -1,7 +1,10 @@
 import { NextApiRequest, NextApiResponse } from 'next'
 import { OpenCage } from '@dorious/weather-api'
 
-const handler = async (req: NextApiRequest, res: NextApiResponse) => {
+const handler = async (
+  req: NextApiRequest,
+  res: NextApiResponse
+): Promise<any> => {
   const { q } = req.query
 
   const cityResponse = await new OpenCage.DefaultApi().vversionFormatGet(

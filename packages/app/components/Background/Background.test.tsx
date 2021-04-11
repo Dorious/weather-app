@@ -1,9 +1,9 @@
-import { render, screen } from '@testing-library/react';
-import Background from '.';
+import { render } from '@testing-library/react'
+import Background from '.'
 
-describe('SearchBar', () => {
-  it('should render input', () => {
-    const { container } = render(<Background symbolCode="clearsky_day" />);
-    expect(container).toMatchSnapshot();
-  });
-});
+describe('Background', () => {
+  it('should render properly', () => {
+    const { container } = render(<Background symbolCode="clearsky_day" />)
+    expect(container).toMatchSnapshot()
+  })
+})

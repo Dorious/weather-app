@@ -1,11 +1,11 @@
-import Head from 'next/head';
-import type { AppProps } from 'next/app';
+import Head from 'next/head'
+import type { AppProps } from 'next/app'
 
-import { AppWrapper } from '../context/app';
+import { AppWrapper } from '../context/app'
 
-import * as S from './_app.styles';
+import * as S from './_app.styles'
 
-function Application({ Component, pageProps }: AppProps) {
+function Application({ Component, pageProps }: AppProps): JSX.Element {
   return (
     <AppWrapper>
       <Head>
@@ -15,7 +15,7 @@ function Application({ Component, pageProps }: AppProps) {
       <S.GlobalStyle />
       <Component {...pageProps} />
     </AppWrapper>
-  );
+  )
 }
 
-export default Application;
+export default Application

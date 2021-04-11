@@ -8,8 +8,8 @@
     "build": "next build",
     "start": "cross-env NODE_ENV=production node server.js",
     "type-check": "tsc --pretty --noEmit",
-    "format": "prettier --write .",
-    "lint": "eslint . --ext ts --ext tsx --ext js",
+    "format": "prettier --write",
+    "lint": "eslint --ext ts --ext tsx --ext js",
     "test": "jest",
     "test-all": "yarn lint && yarn type-check && yarn test"
   },
@@ -20,10 +20,13 @@
     }
   },
   "dependencies": {
+    "geolib": "^3.3.1",
     "next": "latest",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "styled-components": "^5.2.3"
+    "styled-components": "^5.2.3",
+    "use-hooks": "^2.0.0-rc.5",
+    "use-http": "^1.0.19"
   },
   "devDependencies": {
     "@testing-library/react": "^11.2.5",

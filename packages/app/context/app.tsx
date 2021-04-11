@@ -1,44 +1,46 @@
-import { allowedStatusCodes } from 'next/dist/lib/load-custom-routes';
-import { createContext, useContext, useState } from 'react';
+import React, { createContext, useContext, useEffect, useState } from 'react'
 
-export type AppState = {
-  loading?: boolean,
-  searchQuery?: string,
-  setSearchQuery?: (query: string) => void; 
-  geolocation?: GeolocationCoordinates;
-  getGeolocation?: () => void;
-};
+import { watchGeolocation } from '../utils/geolocation'
+import { AppPosition, AppState } from './app.types'
 
 export const initialState = {
-  loading: false,
   searchQuery: '',
-  setSearchQuery: () => {},
+  searchLoading: false,
   geolocation: undefined,
-  getGeolocation: () => {
-    console.log('grr');
-  }
-};
+}
 
-const AppContext = createContext<AppState>(initialState);
+const AppContext = createContext<AppState>(initialState)
 
-export function AppWrapper({ children }) {
-  const [searchQuery, setSearchQuery] = useState('');
-  const [loading, setLoading] = useState(false);
+export const AppWrapper: React.FC = ({ children }): JSX.Element => {
+  const [searchQuery, setSearchQuery] = useState<string>('')
+  const [searchLoading, setSearchLoading] = useState<boolean>(false)
+  const [geolocation, setGeolocation] = useState<AppPosition>(undefined)
+  const [weatherData, setWeatherData] = useState<any>(undefined)
 
   const appState = {
     ...initialState,
-    loading,
+    geolocation,
     searchQuery,
     setSearchQuery,
-  };
+    searchLoading,
+    setSearchLoading,
+    weatherData,
+    setWeatherData,
+  }
 
-  return (
-    <AppContext.Provider value={appState}>
-      {children}
-    </AppContext.Provider>
-  );
+  useEffect(() => {
+    if (!geolocation) {
+      watchGeolocation(
+        (position: GeolocationPosition) => setGeolocation(position),
+        (positionError: GeolocationPositionError) =>
+          setGeolocation(positionError)
+      )
+    }
+  }, [geolocation])
+
+  return <AppContext.Provider value={appState}>{children}</AppContext.Provider>
 }
 
-export function useAppContext() {
-  return useContext(AppContext);
+export function useAppContext(): AppState {
+  return useContext(AppContext) || {}
 }
