@@ -1,13 +1,13 @@
-import * as S from './Background.styles'
+import * as S from './Background.styles';
 
 export type BackgroundProps = {
-  symbolCode: string
-}
+  symbolCode: string;
+};
 
 export default function Background({
   symbolCode,
 }: BackgroundProps): JSX.Element {
-  const [sky, daytime] = symbolCode.split('_')
+  const [sky, daytime] = symbolCode.split('_');
 
-  return <S.Background sky={sky} daytime={daytime} />
+  return <S.Background sky={sky} daytime={daytime} />;
 }

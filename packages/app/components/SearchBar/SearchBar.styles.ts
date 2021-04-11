@@ -1,10 +1,10 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 
 export const SearchContainer = styled.div`
   margin: 1rem;
   box-sizing: border-box;
   position: relative;
-`
+`;
 
 export const SearchInput = styled.input`
   width: 100%;
@@ -28,4 +28,4 @@ export const SearchInput = styled.input`
   :disabled {
     opacity: 0.5;
   }
-`
+`;

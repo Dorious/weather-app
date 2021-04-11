@@ -1,9 +1,9 @@
-import { render } from '@testing-library/react'
-import CurrentWeather from '.'
+import { render } from '@testing-library/react';
+import CurrentWeather from '.';
 
 describe('Background', () => {
   it('should render properly', () => {
-    const { container } = render(<CurrentWeather />)
-    expect(container).toMatchSnapshot()
-  })
-})
+    const { container } = render(<CurrentWeather />);
+    expect(container).toMatchSnapshot();
+  });
+});

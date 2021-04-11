@@ -1,8 +1,8 @@
-import * as S from './SearchBar.styles'
+import * as S from './SearchBar.styles';
 
 export type SearchBarProps = {
-  disabled?: boolean
-}
+  disabled?: boolean;
+};
 
 export default function SearchBar({ disabled }: SearchBarProps): JSX.Element {
   return (
@@ -13,5 +13,5 @@ export default function SearchBar({ disabled }: SearchBarProps): JSX.Element {
         disabled={disabled}
       />
     </S.SearchContainer>
-  )
+  );
 }

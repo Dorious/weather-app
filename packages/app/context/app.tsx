@@ -1,21 +1,21 @@
-import React, { createContext, useContext, useEffect, useState } from 'react'
+import React, { createContext, useContext, useEffect, useState } from 'react';
 
-import { watchGeolocation } from '../utils/geolocation'
-import { AppPosition, AppState } from './app.types'
+import { watchGeolocation } from '../utils/geolocation';
+import { AppPosition, AppState } from './app.types';
 
 export const initialState = {
   searchQuery: '',
   searchLoading: false,
   geolocation: undefined,
-}
+};
 
-const AppContext = createContext<AppState>(initialState)
+const AppContext = createContext<AppState>(initialState);
 
 export const AppWrapper: React.FC = ({ children }): JSX.Element => {
-  const [searchQuery, setSearchQuery] = useState<string>('')
-  const [searchLoading, setSearchLoading] = useState<boolean>(false)
-  const [geolocation, setGeolocation] = useState<AppPosition>(undefined)
-  const [weatherData, setWeatherData] = useState<any>(undefined)
+  const [searchQuery, setSearchQuery] = useState<string>('');
+  const [searchLoading, setSearchLoading] = useState<boolean>(false);
+  const [geolocation, setGeolocation] = useState<AppPosition>(undefined);
+  const [weatherData, setWeatherData] = useState<any>(undefined);
 
   const appState = {
     ...initialState,
@@ -26,7 +26,7 @@ export const AppWrapper: React.FC = ({ children }): JSX.Element => {
     setSearchLoading,
     weatherData,
     setWeatherData,
-  }
+  };
 
   useEffect(() => {
     if (!geolocation) {
@@ -34,13 +34,13 @@ export const AppWrapper: React.FC = ({ children }): JSX.Element => {
         (position: GeolocationPosition) => setGeolocation(position),
         (positionError: GeolocationPositionError) =>
           setGeolocation(positionError)
-      )
+      );
     }
-  }, [geolocation])
+  }, [geolocation]);
 
-  return <AppContext.Provider value={appState}>{children}</AppContext.Provider>
-}
+  return <AppContext.Provider value={appState}>{children}</AppContext.Provider>;
+};
 
 export function useAppContext(): AppState {
-  return useContext(AppContext) || {}
+  return useContext(AppContext) || {};
 }

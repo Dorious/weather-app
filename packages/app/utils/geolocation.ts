@@ -1,4 +1,4 @@
-export const DEFAULT_TIMEOUT = 2000
+export const DEFAULT_TIMEOUT = 2000;
 
 export function watchGeolocation(
   setPosition: (position: GeolocationPosition) => void,
@@ -8,5 +8,5 @@ export function watchGeolocation(
     (position: GeolocationPosition) => setPosition(position),
     (positionError: GeolocationPositionError) => setError(positionError),
     { timeout: DEFAULT_TIMEOUT }
-  )
+  );
 }
