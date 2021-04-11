@@ -24,6 +24,7 @@
   "scripts": {
     "prepare": "husky install",
     "lint": "yarn workspace @dorious/weather-app run lint",
-    "format": "yarn workspace @dorious/weather-app run format"
+    "format": "yarn workspace @dorious/weather-app run format",
+    "test": "yarn workspace @dorious/weather-app run test"
   }
 }
