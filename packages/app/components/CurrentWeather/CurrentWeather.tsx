@@ -1,4 +1,4 @@
-import { memo } from 'react';
+import { memo, useMemo } from 'react';
 import { decimalToSexagesimal } from 'geolib';
 
 import { translateSymbolCode } from '../../utils/geolocation';
@@ -37,6 +37,20 @@ export default memo(function CurrentWeather({
   );
   const symbolCode = current?.data.next_1_hours.summary.symbol_code;
 
+  const [from, to] = useMemo<[number, number]>(() => {
+    let from, to;
+
+    if (timeseries) {
+      for (let i = 0; i < 23; i += 1) {
+        const { air_temperature } = timeseries[i]?.data.instant.details || {};
+        if (!from || air_temperature > from) from = air_temperature;
+        if (!to || air_temperature < to) to = air_temperature;
+      }
+    }
+
+    return [from, to];
+  }, [timeseries]);
+
   // Units
   const degrees =
     weatherData?.properties.meta.units.air_temperature[0].toUpperCase() || '';
@@ -49,7 +63,9 @@ export default memo(function CurrentWeather({
       </S.Coords>
       <S.City>{city}</S.City>
       <S.Country>{country || <>&nbsp;</>}</S.Country>
-      <S.Sky>{translateSymbolCode(symbolCode)}</S.Sky>
+      <S.Sky>
+        {symbolCode ? translateSymbolCode(symbolCode) : <>&nbsp;</>}
+      </S.Sky>
       <S.TemperatureContainer>
         <S.WeatherSymbol code={symbolCode} />
         <S.Temperature>
@@ -63,7 +79,8 @@ export default memo(function CurrentWeather({
         </S.Temperature>
       </S.TemperatureContainer>
       <S.FromTo>
-        From: 15&deg;{degrees} To: 15&deg;{degrees}
+        From: {Math.round(from)}&deg;{degrees} To: {Math.round(to)}&deg;
+        {degrees}
       </S.FromTo>
     </S.Container>
   );
