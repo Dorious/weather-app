@@ -12,5 +12,6 @@ export default function Symbol({
   code,
   ...restProps
 }: SymbolProps): JSX.Element {
+  if (!code) return null;
   return <img src={`/symbols/svg/${code}.svg`} {...restProps} />;
 }

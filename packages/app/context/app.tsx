@@ -42,5 +42,5 @@ export const AppWrapper: React.FC = ({ children }): JSX.Element => {
 };
 
 export function useAppContext(): AppState {
-  return useContext(AppContext) || {};
+  return useContext(AppContext) || initialState;
 }

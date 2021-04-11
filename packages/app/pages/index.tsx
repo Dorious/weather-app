@@ -16,7 +16,8 @@ export function Index(): JSX.Element {
 
   const { weatherData } = useWeatherData(geolocation);
   const symbolCode =
-    weatherData.properties.timeseries[0].data.next_1_hours.summary.symbol_code;
+    weatherData?.properties.timeseries[0].data.next_1_hours.summary
+      .symbol_code || '';
 
   return (
     <>

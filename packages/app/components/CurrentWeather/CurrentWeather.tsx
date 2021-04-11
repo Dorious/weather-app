@@ -1,6 +1,8 @@
 import { memo } from 'react';
-import { AppPosition, WeatherData } from '../../context/app.types';
 import { decimalToSexagesimal } from 'geolib';
+
+import { translateSymbolCode } from '../../utils/geolocation';
+import { AppPosition, WeatherData } from '../../context/app.types';
 
 import * as S from './CurrentWeather.styles';
 
@@ -46,12 +48,18 @@ export default memo(function CurrentWeather({
         {long.replace(/.([0-9]+)" ([NSWE])$/, '" $2')}
       </S.Coords>
       <S.City>{city}</S.City>
-      <S.Country>{country}</S.Country>
-      <S.Sky>Partly cloudy</S.Sky>
+      <S.Country>{country || <>&nbsp;</>}</S.Country>
+      <S.Sky>{translateSymbolCode(symbolCode)}</S.Sky>
       <S.TemperatureContainer>
         <S.WeatherSymbol code={symbolCode} />
         <S.Temperature>
-          {isNaN(airTemperature) ? DEFAULT_EMPTY : airTemperature}&deg;{degrees}
+          {isNaN(airTemperature) ? (
+            DEFAULT_EMPTY
+          ) : (
+            <>
+              {airTemperature}&deg;{degrees}
+            </>
+          )}
         </S.Temperature>
       </S.TemperatureContainer>
       <S.FromTo>
