@@ -11,8 +11,16 @@ export const Coords = styled.div`
   font-size: 1rem;
 `;
 
-export const City = styled.h1``;
-export const Country = styled.h2``;
+export const City = styled.h1`
+  font-weight: normal;
+  font-size: 3rem;
+`;
+export const Country = styled.h2`
+  font-weight: normal;
+  font-size: 1rem;
+  margin-top: -2rem;
+  margin-bottom: 2rem;
+`;
 export const Sky = styled.h3``;
 
 export const TemperatureContainer = styled.div`
