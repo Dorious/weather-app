@@ -19,12 +19,6 @@
       "pre-push": "yarn run type-check"
     }
   },
-  "lint-staged": {
-    "*.@(ts|tsx)": [
-      "yarn lint",
-      "yarn format"
-    ]
-  },
   "dependencies": {
     "next": "latest",
     "react": "^17.0.1",
