@@ -1,10 +1,10 @@
 import { useAppContext } from '../context/app';
 import Background from '../components/Background';
 import CurrentWeather from '../components/CurrentWeather';
-import SearchBar from '../components/SearchBar';
+import Hourly from '../components/Hourly';
+import { useWeatherData } from '../hooks/useWeatherData';
 
 import * as S from './_app.styles';
-import { useWeatherData } from '../hooks/useWeatherData';
 
 export function Index(): JSX.Element {
   const { geolocation } = useAppContext();
@@ -24,9 +24,9 @@ export function Index(): JSX.Element {
       <S.AppContainer>
         <Background symbolCode={symbolCode} />
         <S.AppBody>
-          <SearchBar disabled />
           {errorMessage ? <S.AppError>{errorMessage}</S.AppError> : null}
           <CurrentWeather geolocation={geolocation} weatherData={weatherData} />
+          {weatherData ? <Hourly weatherData={weatherData} /> : null}
         </S.AppBody>
       </S.AppContainer>
     </>
