@@ -19,6 +19,7 @@ app.prepare().then(() => {
     handle(req, res, parsedUrl);
   }).listen(port, (err) => {
     if (err) throw err;
+    // eslint-disable-next-line no-console
     console.log(`ready - started server on url: https://${host}:` + port);
   });
 });
