@@ -18,7 +18,7 @@ const handler = async (
     1,
     'json',
     `${locLat}, ${locLong}`,
-    'ce3818764ead4feea6be98e8c89f2d2d'
+    process.env.OPENCAGE_KEY || 'ce3818764ead4feea6be98e8c89f2d2d'
   );
 
   if (locationResponse.status === 200 && cityResponse.status === 200) {
