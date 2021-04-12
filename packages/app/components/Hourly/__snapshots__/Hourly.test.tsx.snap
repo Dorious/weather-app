@@ -1,0 +1,394 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Hourly should render properly 1`] = `
+<div>
+  <div
+    class="Hourlystyles__Container-sc-9ewovh-0 jQdjbP"
+  >
+    <div
+      class="Hourlystyles__Day-sc-9ewovh-1 jlJFrI"
+    >
+      <div
+        class="Hourlystyles__Hour-sc-9ewovh-2 bbzqeG"
+      >
+        Now
+      </div>
+      <img
+        src="/symbols/svg/cloudy.svg"
+      />
+      <div>
+        7
+        °
+      </div>
+    </div>
+    <div
+      class="Hourlystyles__Day-sc-9ewovh-1 jlJFrI"
+    >
+      <div
+        class="Hourlystyles__Hour-sc-9ewovh-2 bbzqeG"
+      >
+        11
+      </div>
+      <img
+        src="/symbols/svg/lightrain.svg"
+      />
+      <div>
+        7
+        °
+      </div>
+    </div>
+    <div
+      class="Hourlystyles__Day-sc-9ewovh-1 jlJFrI"
+    >
+      <div
+        class="Hourlystyles__Hour-sc-9ewovh-2 bbzqeG"
+      >
+        12
+      </div>
+      <img
+        src="/symbols/svg/lightrain.svg"
+      />
+      <div>
+        7
+        °
+      </div>
+    </div>
+    <div
+      class="Hourlystyles__Day-sc-9ewovh-1 jlJFrI"
+    >
+      <div
+        class="Hourlystyles__Hour-sc-9ewovh-2 bbzqeG"
+      >
+        13
+      </div>
+      <img
+        src="/symbols/svg/rain.svg"
+      />
+      <div>
+        5
+        °
+      </div>
+    </div>
+    <div
+      class="Hourlystyles__Day-sc-9ewovh-1 jlJFrI"
+    >
+      <div
+        class="Hourlystyles__Hour-sc-9ewovh-2 bbzqeG"
+      >
+        14
+      </div>
+      <img
+        src="/symbols/svg/lightrain.svg"
+      />
+      <div>
+        5
+        °
+      </div>
+    </div>
+    <div
+      class="Hourlystyles__Day-sc-9ewovh-1 jlJFrI"
+    >
+      <div
+        class="Hourlystyles__Hour-sc-9ewovh-2 bbzqeG"
+      >
+        15
+      </div>
+      <img
+        src="/symbols/svg/rain.svg"
+      />
+      <div>
+        4
+        °
+      </div>
+    </div>
+    <div
+      class="Hourlystyles__Day-sc-9ewovh-1 jlJFrI"
+    >
+      <div
+        class="Hourlystyles__Hour-sc-9ewovh-2 bbzqeG"
+      >
+        16
+      </div>
+      <img
+        src="/symbols/svg/rain.svg"
+      />
+      <div>
+        4
+        °
+      </div>
+    </div>
+    <div
+      class="Hourlystyles__Day-sc-9ewovh-1 jlJFrI"
+    >
+      <div
+        class="Hourlystyles__Hour-sc-9ewovh-2 bbzqeG"
+      >
+        17
+      </div>
+      <img
+        src="/symbols/svg/lightrain.svg"
+      />
+      <div>
+        4
+        °
+      </div>
+    </div>
+    <div
+      class="Hourlystyles__Day-sc-9ewovh-1 jlJFrI"
+    >
+      <div
+        class="Hourlystyles__Hour-sc-9ewovh-2 bbzqeG"
+      >
+        18
+      </div>
+      <img
+        src="/symbols/svg/cloudy.svg"
+      />
+      <div>
+        4
+        °
+      </div>
+    </div>
+    <div
+      class="Hourlystyles__Day-sc-9ewovh-1 jlJFrI"
+    >
+      <div
+        class="Hourlystyles__Hour-sc-9ewovh-2 bbzqeG"
+      >
+        19
+      </div>
+      <img
+        src="/symbols/svg/cloudy.svg"
+      />
+      <div>
+        4
+        °
+      </div>
+    </div>
+    <div
+      class="Hourlystyles__Day-sc-9ewovh-1 jlJFrI"
+    >
+      <div
+        class="Hourlystyles__Hour-sc-9ewovh-2 bbzqeG"
+      >
+        20
+      </div>
+      <img
+        src="/symbols/svg/cloudy.svg"
+      />
+      <div>
+        4
+        °
+      </div>
+    </div>
+    <div
+      class="Hourlystyles__Day-sc-9ewovh-1 jlJFrI"
+    >
+      <div
+        class="Hourlystyles__Hour-sc-9ewovh-2 bbzqeG"
+      >
+        21
+      </div>
+      <img
+        src="/symbols/svg/cloudy.svg"
+      />
+      <div>
+        4
+        °
+      </div>
+    </div>
+    <div
+      class="Hourlystyles__Day-sc-9ewovh-1 jlJFrI"
+    >
+      <div
+        class="Hourlystyles__Hour-sc-9ewovh-2 bbzqeG"
+      >
+        22
+      </div>
+      <img
+        src="/symbols/svg/cloudy.svg"
+      />
+      <div>
+        4
+        °
+      </div>
+    </div>
+    <div
+      class="Hourlystyles__Day-sc-9ewovh-1 jlJFrI"
+    >
+      <div
+        class="Hourlystyles__Hour-sc-9ewovh-2 bbzqeG"
+      >
+        23
+      </div>
+      <img
+        src="/symbols/svg/cloudy.svg"
+      />
+      <div>
+        4
+        °
+      </div>
+    </div>
+    <div
+      class="Hourlystyles__Day-sc-9ewovh-1 jlJFrI"
+    >
+      <div
+        class="Hourlystyles__Hour-sc-9ewovh-2 bbzqeG"
+      >
+        0
+      </div>
+      <img
+        src="/symbols/svg/partlycloudy_night.svg"
+      />
+      <div>
+        4
+        °
+      </div>
+    </div>
+    <div
+      class="Hourlystyles__Day-sc-9ewovh-1 jlJFrI"
+    >
+      <div
+        class="Hourlystyles__Hour-sc-9ewovh-2 bbzqeG"
+      >
+        1
+      </div>
+      <img
+        src="/symbols/svg/cloudy.svg"
+      />
+      <div>
+        4
+        °
+      </div>
+    </div>
+    <div
+      class="Hourlystyles__Day-sc-9ewovh-1 jlJFrI"
+    >
+      <div
+        class="Hourlystyles__Hour-sc-9ewovh-2 bbzqeG"
+      >
+        2
+      </div>
+      <img
+        src="/symbols/svg/cloudy.svg"
+      />
+      <div>
+        4
+        °
+      </div>
+    </div>
+    <div
+      class="Hourlystyles__Day-sc-9ewovh-1 jlJFrI"
+    >
+      <div
+        class="Hourlystyles__Hour-sc-9ewovh-2 bbzqeG"
+      >
+        3
+      </div>
+      <img
+        src="/symbols/svg/cloudy.svg"
+      />
+      <div>
+        3
+        °
+      </div>
+    </div>
+    <div
+      class="Hourlystyles__Day-sc-9ewovh-1 jlJFrI"
+    >
+      <div
+        class="Hourlystyles__Hour-sc-9ewovh-2 bbzqeG"
+      >
+        4
+      </div>
+      <img
+        src="/symbols/svg/partlycloudy_night.svg"
+      />
+      <div>
+        3
+        °
+      </div>
+    </div>
+    <div
+      class="Hourlystyles__Day-sc-9ewovh-1 jlJFrI"
+    >
+      <div
+        class="Hourlystyles__Hour-sc-9ewovh-2 bbzqeG"
+      >
+        5
+      </div>
+      <img
+        src="/symbols/svg/partlycloudy_night.svg"
+      />
+      <div>
+        3
+        °
+      </div>
+    </div>
+    <div
+      class="Hourlystyles__Day-sc-9ewovh-1 jlJFrI"
+    >
+      <div
+        class="Hourlystyles__Hour-sc-9ewovh-2 bbzqeG"
+      >
+        6
+      </div>
+      <img
+        src="/symbols/svg/cloudy.svg"
+      />
+      <div>
+        2
+        °
+      </div>
+    </div>
+    <div
+      class="Hourlystyles__Day-sc-9ewovh-1 jlJFrI"
+    >
+      <div
+        class="Hourlystyles__Hour-sc-9ewovh-2 bbzqeG"
+      >
+        7
+      </div>
+      <img
+        src="/symbols/svg/cloudy.svg"
+      />
+      <div>
+        3
+        °
+      </div>
+    </div>
+    <div
+      class="Hourlystyles__Day-sc-9ewovh-1 jlJFrI"
+    >
+      <div
+        class="Hourlystyles__Hour-sc-9ewovh-2 bbzqeG"
+      >
+        8
+      </div>
+      <img
+        src="/symbols/svg/cloudy.svg"
+      />
+      <div>
+        4
+        °
+      </div>
+    </div>
+    <div
+      class="Hourlystyles__Day-sc-9ewovh-1 jlJFrI"
+    >
+      <div
+        class="Hourlystyles__Hour-sc-9ewovh-2 bbzqeG"
+      >
+        9
+      </div>
+      <img
+        src="/symbols/svg/cloudy.svg"
+      />
+      <div>
+        5
+        °
+      </div>
+    </div>
+  </div>
+</div>
+`;
