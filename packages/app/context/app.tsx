@@ -11,7 +11,10 @@ export const initialState = {
 
 const AppContext = createContext<AppState>(initialState);
 
-export const AppWrapper: React.FC = ({ children }): JSX.Element => {
+export const AppWrapper: React.FC<{ render?: (state: any) => void }> = ({
+  children,
+  render,
+}): JSX.Element => {
   const [searchQuery, setSearchQuery] = useState<string>('');
   const [searchLoading, setSearchLoading] = useState<boolean>(false);
   const [geolocation, setGeolocation] = useState<AppPosition>(undefined);
@@ -38,7 +41,12 @@ export const AppWrapper: React.FC = ({ children }): JSX.Element => {
     }
   }, [geolocation]);
 
-  return <AppContext.Provider value={appState}>{children}</AppContext.Provider>;
+  return (
+    <AppContext.Provider value={appState}>
+      {render && render(appState)}
+      {children}
+    </AppContext.Provider>
+  );
 };
 
 export function useAppContext(): AppState {

@@ -4,7 +4,7 @@ import { AbsoluteDiv } from '../components/styles';
 export const GlobalStyle = createGlobalStyle`
   body {
     font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Rubik', Arial, Helvetica, sans-serif;
   }
 `;
 
