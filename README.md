@@ -36,11 +36,12 @@ docker run -p 3000:3000 weather-app
 
 # TODO/Considerations
 
-* More responsiveness
-* API call error handling
+* Responsiveness, for example on desktop screens the CurrentWeather could go to the left as fixed and the whole scrollable part to the right
+* API call error/loading handling
 * Theming
-* Using some more complex state managemnt like Overmind (or Redux but Redux might be to big here).
+* Using some more complex state managemnt like Redux or Overmind.
 * Finish Searching by name (as started)
-* Using NextJS getStaticProps to generate static pages for Google :) and making some internal linking for indexing :)
+* Using NextJS routing & getStaticProps to generate static pages for Google :) and making some internal linking for indexing :)
 * Nicer backgrounds :P
+* Fixing bugs with timezones and "Now". 
 * CI like Github Actions with semantic-release, Docker registry push, etc.
