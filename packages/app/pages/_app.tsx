@@ -13,11 +13,8 @@ function Application({ Component, pageProps }: AppProps): JSX.Element {
         const { weatherData } = state;
         const components = (weatherData?.location.components as any) || {};
 
-        const city =
-          components.city ||
-          components.town ||
-          components.village ||
-          DEFAULT_EMPTY;
+        const city = components.city || components.town || components.village;
+
         const country = components.country || '';
 
         return (
