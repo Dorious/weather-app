@@ -21,7 +21,12 @@ export function useWeatherData(
     const { latitude: oldLat, longitude: oldLong } =
       (prevGeolocation as GeolocationPosition)?.coords || {};
 
-    if (!loading && (oldLat !== latitude || oldLong !== longitude)) {
+    if (
+      !loading &&
+      latitude &&
+      longitude &&
+      (oldLat !== latitude || oldLong !== longitude)
+    ) {
       get(`?lat=${latitude}&long=${longitude}`).then((response) => {
         setWeatherData(response.data as WeatherData);
       });

@@ -2,8 +2,7 @@ import { SymbolCodes } from '../components/Symbol/Symbol';
 
 import legendJson from './legend.json';
 
-export const DEFAULT_TIMEOUT = 5000;
-export const DEFAULT_MAX_AGE = 0;
+export const DEFAULT_TIMEOUT = 10000;
 
 export function watchGeolocation(
   setPosition: (position: GeolocationPosition) => void,
@@ -13,7 +12,7 @@ export function watchGeolocation(
   return navigator.geolocation.watchPosition(
     (position: GeolocationPosition) => setPosition(position),
     (positionError: GeolocationPositionError) => setError(positionError),
-    { timeout: DEFAULT_TIMEOUT, maximumAge: DEFAULT_MAX_AGE, ...options }
+    { timeout: DEFAULT_TIMEOUT, ...options }
   );
 }
 

@@ -21,8 +21,8 @@ export const animateEntry = keyframes`
   }
 `;
 
-export const AnimatedEntry = styled.div<{ delay: number }>`
+export const AnimatedEntry = styled.div<{ delay?: number }>`
   opacity: 0;
   animation: ${animateEntry} 1s ease-in forwards;
-  animation-delay: ${({ delay }): string => `${delay / 1000}s`};
+  animation-delay: ${({ delay = 0 }): string => `${delay / 1000}s`};
 `;
