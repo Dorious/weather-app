@@ -18,9 +18,12 @@ export default memo(function CurrentWeather({
   weatherData,
 }: CurrentWeatherProps): JSX.Element {
   const { coords = null } = (geolocation as GeolocationPosition) || {};
+  const components = (weatherData?.location.components as any) || {};
 
-  const city = (weatherData?.location.components as any)?.city || DEFAULT_EMPTY;
-  const country = (weatherData?.location.components as any)?.country || '';
+  const city =
+    components.city || components.town || components.village || DEFAULT_EMPTY;
+  const country = components.country || '';
+
   const lat = coords?.latitude
     ? decimalToSexagesimal(coords.latitude) +
       (coords.latitude > 0 ? ' N' : ' S')
@@ -63,25 +66,27 @@ export default memo(function CurrentWeather({
       </S.Coords>
       <S.City>{city}</S.City>
       <S.Country>{country || <>&nbsp;</>}</S.Country>
-      <S.Sky>
-        {symbolCode ? translateSymbolCode(symbolCode) : <>&nbsp;</>}
-      </S.Sky>
-      <S.TemperatureContainer>
-        <S.WeatherSymbol code={symbolCode} />
-        <S.Temperature>
-          {isNaN(airTemperature) ? (
-            DEFAULT_EMPTY
-          ) : (
-            <>
-              {airTemperature}&deg;{degrees}
-            </>
-          )}
-        </S.Temperature>
-      </S.TemperatureContainer>
-      <S.FromTo>
-        From: {Math.round(from)}&deg;{degrees} To: {Math.round(to)}&deg;
-        {degrees}
-      </S.FromTo>
+      <S.Hidden>
+        <S.Sky>
+          {symbolCode ? translateSymbolCode(symbolCode) : <>&nbsp;</>}
+        </S.Sky>
+        <S.TemperatureContainer>
+          <S.WeatherSymbol code={symbolCode} />
+          <S.Temperature>
+            {isNaN(airTemperature) ? (
+              DEFAULT_EMPTY
+            ) : (
+              <>
+                {airTemperature}&deg;{degrees}
+              </>
+            )}
+          </S.Temperature>
+        </S.TemperatureContainer>
+        <S.FromTo>
+          From: {Math.round(from)}&deg;{degrees} To: {Math.round(to)}&deg;
+          {degrees}
+        </S.FromTo>
+      </S.Hidden>
     </S.Container>
   );
 });

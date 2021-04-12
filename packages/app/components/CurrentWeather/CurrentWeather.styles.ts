@@ -21,7 +21,12 @@ export const Country = styled.h2`
   margin-top: -2rem;
   margin-bottom: 2rem;
 `;
-export const Sky = styled.h3``;
+export const Sky = styled.h3`
+  font-weight: normal;
+`;
+export const Hidden = styled.div`
+  transition: all 0.3s ease;
+`;
 
 export const TemperatureContainer = styled.div`
   display: flex;
@@ -42,4 +47,5 @@ export const FromTo = styled.p`
 export const WeatherSymbol = styled(Symbol)`
   width: 6rem;
   height: 6rem;
+  margin-right: 1rem;
 `;

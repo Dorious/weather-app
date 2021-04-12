@@ -1,38 +1,59 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Background should render properly 1`] = `
+exports[`CurrentWeather should render properly 1`] = `
 <div>
   <header
     class="CurrentWeatherstyles__Container-sc-1ecxqgh-0 cMCauJ"
   >
-    <h1
-      class="CurrentWeatherstyles__Header-sc-1ecxqgh-1"
+    <div
+      class="CurrentWeatherstyles__Coords-sc-1ecxqgh-1 hXZrVc"
     >
-      Gdynia
+      Lat: 
+      --
+       Long:
+       
+      --
+    </div>
+    <h1
+      class="CurrentWeatherstyles__City-sc-1ecxqgh-2 kLnZjo"
+    >
+      --
     </h1>
     <h2
-      class="CurrentWeatherstyles__Sky-sc-1ecxqgh-2"
+      class="CurrentWeatherstyles__Country-sc-1ecxqgh-3 eciVgp"
     >
-      Partly cloudy
+       
     </h2>
     <div
-      class="CurrentWeatherstyles__TemperatureContainer-sc-1ecxqgh-3 kHhmky"
+      class="CurrentWeatherstyles__Hidden-sc-1ecxqgh-5 iHiIgS"
     >
-      <img
-        class="CurrentWeatherstyles__WeatherSymbol-sc-1ecxqgh-6 iajTFn"
-        src="/symbols/svg/partlycloudy_day.svg"
-      />
-      <span
-        class="CurrentWeatherstyles__Temperature-sc-1ecxqgh-4 bNwOVP"
+      <h3
+        class="CurrentWeatherstyles__Sky-sc-1ecxqgh-4 jDOTQj"
       >
-        15°
-      </span>
+         
+      </h3>
+      <div
+        class="CurrentWeatherstyles__TemperatureContainer-sc-1ecxqgh-6 qbMjX"
+      >
+        <span
+          class="CurrentWeatherstyles__Temperature-sc-1ecxqgh-7 iEyRJk"
+        >
+          --
+        </span>
+      </div>
+      <p
+        class="CurrentWeatherstyles__FromTo-sc-1ecxqgh-8 hyqZdW"
+      >
+        From: 
+        NaN
+        °
+        
+         To: 
+        NaN
+        °
+        
+      </p>
     </div>
-    <p
-      class="CurrentWeatherstyles__FromTo-sc-1ecxqgh-5 fvNVDD"
-    >
-      From: 15° To: 15°
-    </p>
   </header>
 </div>
 `;
