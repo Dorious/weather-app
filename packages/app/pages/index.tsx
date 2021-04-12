@@ -6,6 +6,7 @@ import Daily from '../components/Daily';
 import { useWeatherData } from '../hooks/useWeatherData';
 
 import * as S from './_app.styles';
+import * as St from '../components/styles';
 
 export function Index(): JSX.Element {
   const { geolocation } = useAppContext();
@@ -34,8 +35,12 @@ export function Index(): JSX.Element {
           <CurrentWeather geolocation={geolocation} weatherData={weatherData} />
           {weatherData ? (
             <>
-              <Hourly timeseries={timeseries} />
-              <Daily timeseries={timeseries} />
+              <St.AnimatedEntry delay={500}>
+                <Hourly timeseries={timeseries} />
+              </St.AnimatedEntry>
+              <St.AnimatedEntry delay={1000}>
+                <Daily timeseries={timeseries} />
+              </St.AnimatedEntry>
             </>
           ) : null}
         </S.AppBody>

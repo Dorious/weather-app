@@ -17,8 +17,6 @@ export default memo(function CurrentWeather({
   geolocation,
   weatherData,
 }: CurrentWeatherProps): JSX.Element {
-  if (!weatherData) return null;
-
   const { coords = null } = (geolocation as GeolocationPosition) || {};
   const components = (weatherData?.location.components as any) || {};
 
@@ -62,33 +60,39 @@ export default memo(function CurrentWeather({
 
   return (
     <S.Container>
-      <S.Coords>
-        Lat: {lat.replace(/.([0-9]+)" ([NSWE])$/, '" $2')} Long:{' '}
-        {long.replace(/.([0-9]+)" ([NSWE])$/, '" $2')}
-      </S.Coords>
-      <S.City>{city}</S.City>
-      <S.Country>{country || <>&nbsp;</>}</S.Country>
-      <S.Hidden>
-        <S.Sky>
-          {symbolCode ? translateSymbolCode(symbolCode) : <>&nbsp;</>}
-        </S.Sky>
-        <S.TemperatureContainer>
-          <S.WeatherSymbol code={symbolCode} />
-          <S.Temperature>
-            {isNaN(airTemperature) ? (
-              DEFAULT_EMPTY
-            ) : (
-              <>
-                {airTemperature}&deg;{degrees}
-              </>
-            )}
-          </S.Temperature>
-        </S.TemperatureContainer>
-        <S.FromTo>
-          From: {Math.round(from)}&deg;{degrees} To: {Math.round(to)}&deg;
-          {degrees}
-        </S.FromTo>
-      </S.Hidden>
+      {geolocation ? (
+        <S.Coords>
+          Lat: {lat.replace(/.([0-9]+)" ([NSWE])$/, '" $2')} Long:{' '}
+          {long.replace(/.([0-9]+)" ([NSWE])$/, '" $2')}
+        </S.Coords>
+      ) : null}
+      {weatherData?.location && (
+        <S.Data>
+          <S.City>{city}</S.City>
+          <S.Country>{country || <>&nbsp;</>}</S.Country>
+          <S.Hidden>
+            <S.Sky>
+              {symbolCode ? translateSymbolCode(symbolCode) : <>&nbsp;</>}
+            </S.Sky>
+            <S.TemperatureContainer>
+              <S.WeatherSymbol code={symbolCode} />
+              <S.Temperature>
+                {isNaN(airTemperature) ? (
+                  DEFAULT_EMPTY
+                ) : (
+                  <>
+                    {airTemperature}&deg;{degrees}
+                  </>
+                )}
+              </S.Temperature>
+            </S.TemperatureContainer>
+            <S.FromTo>
+              From: {Math.round(from)}&deg;{degrees} To: {Math.round(to)}&deg;
+              {degrees}
+            </S.FromTo>
+          </S.Hidden>
+        </S.Data>
+      )}
     </S.Container>
   );
 });

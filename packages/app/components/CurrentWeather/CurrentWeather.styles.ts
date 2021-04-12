@@ -1,15 +1,18 @@
 import styled from 'styled-components';
 
 import Symbol from '../Symbol';
+import { AnimatedEntry } from '../styles';
 
 export const Container = styled.header`
   padding: 1rem 0;
   text-align: center;
 `;
 
-export const Coords = styled.div`
+export const Coords = styled(AnimatedEntry)`
   font-size: 1rem;
 `;
+
+export const Data = styled(AnimatedEntry)``;
 
 export const City = styled.h1`
   font-weight: normal;
