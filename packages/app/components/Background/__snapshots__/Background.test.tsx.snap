@@ -1,9 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`SearchBar should render input 1`] = `
+exports[`Background should render properly 1`] = `
 <div>
   <div
-    class="styles__AbsoluteDiv-i2fsqp-0 Backgroundstyles__Background-sc-1qaidi-0 bjyhA hTdLPQ"
+    class="styles__AbsoluteDiv-i2fsqp-0 Backgroundstyles__Background-sc-1qaidi-0 bjyhA gowCty"
   />
 </div>
 `;
