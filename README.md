@@ -37,6 +37,8 @@ docker run -p 3000:3000 weather-app
 # TODO/Considerations
 
 * More responsiveness
+* API call error handling
+* Theming
 * Using some more complex state managemnt like Overmind (or Redux but Redux might be to big here).
 * Finish Searching by name (as started)
 * Using NextJS getStaticProps to generate static pages for Google :) and making some internal linking for indexing :)
