@@ -27,6 +27,7 @@
     "format": "yarn workspace @dorious/weather-app run format",
     "test": "yarn workspace @dorious/weather-app run test",
     "build": "yarn workspaces run build",
+    "dev": "yarn workspace @dorious/weather-app run dev",
     "start": "yarn workspace @dorious/weather-app run start"
   }
 }
