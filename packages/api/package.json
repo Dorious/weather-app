@@ -5,7 +5,7 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "clean": "rimraf locationforecast opencage",
+    "clean": "rimraf dist",
     "generate": "yarn generate:locationforecast && yarn generate:opencage",
     "generate:locationforecast": "openapi-generator-cli generate -i swagger/locationforecast.json -g typescript-axios -o src/locationforecast --additional-properties=projectVersion=0.0.1 --additional-properties=projectName=@dorious/weather-api-locationforecast",
     "generate:opencage": "openapi-generator-cli generate -i https://opencagedata.com/swagger.yaml -g typescript-axios -o src/opencage --additional-properties=projectVersion=0.0.1 --additional-properties=projectName=@dorious/weather-api-opencage",

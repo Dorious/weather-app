@@ -25,6 +25,8 @@
     "prepare": "husky install",
     "lint": "yarn workspace @dorious/weather-app run lint",
     "format": "yarn workspace @dorious/weather-app run format",
-    "test": "yarn workspace @dorious/weather-app run test"
+    "test": "yarn workspace @dorious/weather-app run test",
+    "build": "yarn workspaces run build",
+    "start": "yarn workspace @dorious/weather-app run start"
   }
 }

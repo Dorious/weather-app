@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "node server.js",
     "build": "next build",
-    "start": "cross-env NODE_ENV=production node server.js",
+    "start:ssl": "cross-env NODE_ENV=production node server.js",
+    "start": "next start",
     "type-check": "tsc --pretty --noEmit",
     "format": "prettier --write",
     "lint": "eslint --ext ts --ext tsx --ext js",
@@ -20,6 +21,7 @@
     }
   },
   "dependencies": {
+    "axios": "^0.21.1",
     "geolib": "^3.3.1",
     "next": "latest",
     "react": "^17.0.1",
