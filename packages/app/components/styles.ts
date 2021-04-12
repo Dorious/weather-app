@@ -23,6 +23,6 @@ export const animateEntry = keyframes`
 
 export const AnimatedEntry = styled.div<{ delay?: number }>`
   opacity: 0;
-  animation: ${animateEntry} 0.6s ease-in forwards;
+  animation: ${animateEntry} 0.4s ease forwards;
   animation-delay: ${({ delay = 0 }): string => `${delay / 1000}s`};
 `;

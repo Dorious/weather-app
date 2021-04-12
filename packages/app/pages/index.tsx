@@ -35,10 +35,10 @@ export function Index(): JSX.Element {
           <CurrentWeather geolocation={geolocation} weatherData={weatherData} />
           {weatherData ? (
             <>
-              <St.AnimatedEntry delay={500}>
+              <St.AnimatedEntry delay={300}>
                 <Hourly timeseries={timeseries} />
               </St.AnimatedEntry>
-              <St.AnimatedEntry delay={1000}>
+              <St.AnimatedEntry delay={600}>
                 <Daily timeseries={timeseries} />
               </St.AnimatedEntry>
             </>
