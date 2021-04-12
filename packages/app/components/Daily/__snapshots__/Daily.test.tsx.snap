@@ -3,18 +3,18 @@
 exports[`Hourly should render properly 1`] = `
 <div>
   <section
-    class="Dailystyles__Container-sc-1i15yny-0 fatvBA"
+    class="Dailystyles__Container-sc-1i15yny-0 cLXdpP"
   >
     <div
-      class="Dailystyles__Day-sc-1i15yny-1 bEMxJL"
+      class="Dailystyles__Day-sc-1i15yny-1 dMvXlu"
     >
       <h3
-        class="Dailystyles__DayName-sc-1i15yny-2 gmDgIC"
+        class="Dailystyles__DayName-sc-1i15yny-2 crhSje"
       >
         Monday
       </h3>
       <div
-        class="Dailystyles__Symbol-sc-1i15yny-3 dkvAxZ"
+        class="Dailystyles__Symbol-sc-1i15yny-3 NYpOi"
       >
         <img
           alt="Cloudy"
@@ -23,7 +23,7 @@ exports[`Hourly should render properly 1`] = `
         />
       </div>
       <div
-        class="Dailystyles__Temperatures-sc-1i15yny-4 dlTnNH"
+        class="Dailystyles__Temperatures-sc-1i15yny-4 shzax"
       >
         <b>
           7
@@ -37,15 +37,15 @@ exports[`Hourly should render properly 1`] = `
       </div>
     </div>
     <div
-      class="Dailystyles__Day-sc-1i15yny-1 bEMxJL"
+      class="Dailystyles__Day-sc-1i15yny-1 dMvXlu"
     >
       <h3
-        class="Dailystyles__DayName-sc-1i15yny-2 gmDgIC"
+        class="Dailystyles__DayName-sc-1i15yny-2 crhSje"
       >
         Tuesday
       </h3>
       <div
-        class="Dailystyles__Symbol-sc-1i15yny-3 dkvAxZ"
+        class="Dailystyles__Symbol-sc-1i15yny-3 NYpOi"
       >
         <img
           alt="Partly cloudy"
@@ -54,7 +54,7 @@ exports[`Hourly should render properly 1`] = `
         />
       </div>
       <div
-        class="Dailystyles__Temperatures-sc-1i15yny-4 dlTnNH"
+        class="Dailystyles__Temperatures-sc-1i15yny-4 shzax"
       >
         <b>
           4
@@ -68,15 +68,15 @@ exports[`Hourly should render properly 1`] = `
       </div>
     </div>
     <div
-      class="Dailystyles__Day-sc-1i15yny-1 bEMxJL"
+      class="Dailystyles__Day-sc-1i15yny-1 dMvXlu"
     >
       <h3
-        class="Dailystyles__DayName-sc-1i15yny-2 gmDgIC"
+        class="Dailystyles__DayName-sc-1i15yny-2 crhSje"
       >
         Wednesday
       </h3>
       <div
-        class="Dailystyles__Symbol-sc-1i15yny-3 dkvAxZ"
+        class="Dailystyles__Symbol-sc-1i15yny-3 NYpOi"
       >
         <img
           alt="Partly cloudy"
@@ -85,7 +85,7 @@ exports[`Hourly should render properly 1`] = `
         />
       </div>
       <div
-        class="Dailystyles__Temperatures-sc-1i15yny-4 dlTnNH"
+        class="Dailystyles__Temperatures-sc-1i15yny-4 shzax"
       >
         <b>
           3
@@ -99,15 +99,15 @@ exports[`Hourly should render properly 1`] = `
       </div>
     </div>
     <div
-      class="Dailystyles__Day-sc-1i15yny-1 bEMxJL"
+      class="Dailystyles__Day-sc-1i15yny-1 dMvXlu"
     >
       <h3
-        class="Dailystyles__DayName-sc-1i15yny-2 gmDgIC"
+        class="Dailystyles__DayName-sc-1i15yny-2 crhSje"
       >
         Thursday
       </h3>
       <div
-        class="Dailystyles__Symbol-sc-1i15yny-3 dkvAxZ"
+        class="Dailystyles__Symbol-sc-1i15yny-3 NYpOi"
       >
         <img
           alt="Cloudy"
@@ -116,7 +116,7 @@ exports[`Hourly should render properly 1`] = `
         />
       </div>
       <div
-        class="Dailystyles__Temperatures-sc-1i15yny-4 dlTnNH"
+        class="Dailystyles__Temperatures-sc-1i15yny-4 shzax"
       >
         <b>
           3
@@ -130,15 +130,15 @@ exports[`Hourly should render properly 1`] = `
       </div>
     </div>
     <div
-      class="Dailystyles__Day-sc-1i15yny-1 bEMxJL"
+      class="Dailystyles__Day-sc-1i15yny-1 dMvXlu"
     >
       <h3
-        class="Dailystyles__DayName-sc-1i15yny-2 gmDgIC"
+        class="Dailystyles__DayName-sc-1i15yny-2 crhSje"
       >
         Friday
       </h3>
       <div
-        class="Dailystyles__Symbol-sc-1i15yny-3 dkvAxZ"
+        class="Dailystyles__Symbol-sc-1i15yny-3 NYpOi"
       >
         <img
           alt="Partly cloudy"
@@ -147,7 +147,7 @@ exports[`Hourly should render properly 1`] = `
         />
       </div>
       <div
-        class="Dailystyles__Temperatures-sc-1i15yny-4 dlTnNH"
+        class="Dailystyles__Temperatures-sc-1i15yny-4 shzax"
       >
         <b>
           5
@@ -161,15 +161,15 @@ exports[`Hourly should render properly 1`] = `
       </div>
     </div>
     <div
-      class="Dailystyles__Day-sc-1i15yny-1 bEMxJL"
+      class="Dailystyles__Day-sc-1i15yny-1 dMvXlu"
     >
       <h3
-        class="Dailystyles__DayName-sc-1i15yny-2 gmDgIC"
+        class="Dailystyles__DayName-sc-1i15yny-2 crhSje"
       >
         Saturday
       </h3>
       <div
-        class="Dailystyles__Symbol-sc-1i15yny-3 dkvAxZ"
+        class="Dailystyles__Symbol-sc-1i15yny-3 NYpOi"
       >
         <img
           alt="Partly cloudy"
@@ -178,7 +178,7 @@ exports[`Hourly should render properly 1`] = `
         />
       </div>
       <div
-        class="Dailystyles__Temperatures-sc-1i15yny-4 dlTnNH"
+        class="Dailystyles__Temperatures-sc-1i15yny-4 shzax"
       >
         <b>
           6
@@ -192,15 +192,15 @@ exports[`Hourly should render properly 1`] = `
       </div>
     </div>
     <div
-      class="Dailystyles__Day-sc-1i15yny-1 bEMxJL"
+      class="Dailystyles__Day-sc-1i15yny-1 dMvXlu"
     >
       <h3
-        class="Dailystyles__DayName-sc-1i15yny-2 gmDgIC"
+        class="Dailystyles__DayName-sc-1i15yny-2 crhSje"
       >
         Sunday
       </h3>
       <div
-        class="Dailystyles__Symbol-sc-1i15yny-3 dkvAxZ"
+        class="Dailystyles__Symbol-sc-1i15yny-3 NYpOi"
       >
         <img
           alt="Partly cloudy"
@@ -209,7 +209,7 @@ exports[`Hourly should render properly 1`] = `
         />
       </div>
       <div
-        class="Dailystyles__Temperatures-sc-1i15yny-4 dlTnNH"
+        class="Dailystyles__Temperatures-sc-1i15yny-4 shzax"
       >
         <b>
           6
@@ -223,15 +223,15 @@ exports[`Hourly should render properly 1`] = `
       </div>
     </div>
     <div
-      class="Dailystyles__Day-sc-1i15yny-1 bEMxJL"
+      class="Dailystyles__Day-sc-1i15yny-1 dMvXlu"
     >
       <h3
-        class="Dailystyles__DayName-sc-1i15yny-2 gmDgIC"
+        class="Dailystyles__DayName-sc-1i15yny-2 crhSje"
       >
         Monday
       </h3>
       <div
-        class="Dailystyles__Symbol-sc-1i15yny-3 dkvAxZ"
+        class="Dailystyles__Symbol-sc-1i15yny-3 NYpOi"
       >
         <img
           alt="Partly cloudy"
@@ -240,7 +240,7 @@ exports[`Hourly should render properly 1`] = `
         />
       </div>
       <div
-        class="Dailystyles__Temperatures-sc-1i15yny-4 dlTnNH"
+        class="Dailystyles__Temperatures-sc-1i15yny-4 shzax"
       >
         <b>
           6
@@ -254,15 +254,15 @@ exports[`Hourly should render properly 1`] = `
       </div>
     </div>
     <div
-      class="Dailystyles__Day-sc-1i15yny-1 bEMxJL"
+      class="Dailystyles__Day-sc-1i15yny-1 dMvXlu"
     >
       <h3
-        class="Dailystyles__DayName-sc-1i15yny-2 gmDgIC"
+        class="Dailystyles__DayName-sc-1i15yny-2 crhSje"
       >
         Tuesday
       </h3>
       <div
-        class="Dailystyles__Symbol-sc-1i15yny-3 dkvAxZ"
+        class="Dailystyles__Symbol-sc-1i15yny-3 NYpOi"
       >
         <img
           alt="Fair"
@@ -271,7 +271,7 @@ exports[`Hourly should render properly 1`] = `
         />
       </div>
       <div
-        class="Dailystyles__Temperatures-sc-1i15yny-4 dlTnNH"
+        class="Dailystyles__Temperatures-sc-1i15yny-4 shzax"
       >
         <b>
           7
@@ -285,15 +285,15 @@ exports[`Hourly should render properly 1`] = `
       </div>
     </div>
     <div
-      class="Dailystyles__Day-sc-1i15yny-1 bEMxJL"
+      class="Dailystyles__Day-sc-1i15yny-1 dMvXlu"
     >
       <h3
-        class="Dailystyles__DayName-sc-1i15yny-2 gmDgIC"
+        class="Dailystyles__DayName-sc-1i15yny-2 crhSje"
       >
         Wednesday
       </h3>
       <div
-        class="Dailystyles__Symbol-sc-1i15yny-3 dkvAxZ"
+        class="Dailystyles__Symbol-sc-1i15yny-3 NYpOi"
       >
         <img
           alt="Partly cloudy"
@@ -302,7 +302,7 @@ exports[`Hourly should render properly 1`] = `
         />
       </div>
       <div
-        class="Dailystyles__Temperatures-sc-1i15yny-4 dlTnNH"
+        class="Dailystyles__Temperatures-sc-1i15yny-4 shzax"
       >
         <b>
           6
