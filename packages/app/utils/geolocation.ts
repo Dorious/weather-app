@@ -8,7 +8,7 @@ export const DEFAULT_MAX_AGE = 0;
 export function watchGeolocation(
   setPosition: (position: GeolocationPosition) => void,
   setError: (position: GeolocationPositionError) => void,
-  options: PositionOptions
+  options?: PositionOptions
 ): number {
   return navigator.geolocation.watchPosition(
     (position: GeolocationPosition) => setPosition(position),
