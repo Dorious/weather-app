@@ -4,56 +4,6 @@ exports[`CurrentWeather should render properly 1`] = `
 <div>
   <header
     class="CurrentWeatherstyles__Container-sc-1ecxqgh-0 cMCauJ"
-  >
-    <div
-      class="CurrentWeatherstyles__Coords-sc-1ecxqgh-1 hXZrVc"
-    >
-      Lat: 
-      --
-       Long:
-       
-      --
-    </div>
-    <h1
-      class="CurrentWeatherstyles__City-sc-1ecxqgh-2 kLnZjo"
-    >
-      --
-    </h1>
-    <h2
-      class="CurrentWeatherstyles__Country-sc-1ecxqgh-3 eciVgp"
-    >
-       
-    </h2>
-    <div
-      class="CurrentWeatherstyles__Hidden-sc-1ecxqgh-5 iHiIgS"
-    >
-      <h3
-        class="CurrentWeatherstyles__Sky-sc-1ecxqgh-4 jDOTQj"
-      >
-         
-      </h3>
-      <div
-        class="CurrentWeatherstyles__TemperatureContainer-sc-1ecxqgh-6 qbMjX"
-      >
-        <span
-          class="CurrentWeatherstyles__Temperature-sc-1ecxqgh-7 iEyRJk"
-        >
-          --
-        </span>
-      </div>
-      <p
-        class="CurrentWeatherstyles__FromTo-sc-1ecxqgh-8 hyqZdW"
-      >
-        From: 
-        NaN
-        °
-        
-         To: 
-        NaN
-        °
-        
-      </p>
-    </div>
-  </header>
+  />
 </div>
 `;

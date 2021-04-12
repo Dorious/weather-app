@@ -1,0 +1,320 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Hourly should render properly 1`] = `
+<div>
+  <section
+    class="Dailystyles__Container-sc-1i15yny-0 fatvBA"
+  >
+    <div
+      class="Dailystyles__Day-sc-1i15yny-1 bEMxJL"
+    >
+      <h3
+        class="Dailystyles__DayName-sc-1i15yny-2 gmDgIC"
+      >
+        Monday
+      </h3>
+      <div
+        class="Dailystyles__Symbol-sc-1i15yny-3 dkvAxZ"
+      >
+        <img
+          alt="Cloudy"
+          src="/symbols/svg/cloudy.svg"
+          title="Cloudy"
+        />
+      </div>
+      <div
+        class="Dailystyles__Temperatures-sc-1i15yny-4 dlTnNH"
+      >
+        <b>
+          7
+          °
+        </b>
+         
+        <span>
+          4
+          °
+        </span>
+      </div>
+    </div>
+    <div
+      class="Dailystyles__Day-sc-1i15yny-1 bEMxJL"
+    >
+      <h3
+        class="Dailystyles__DayName-sc-1i15yny-2 gmDgIC"
+      >
+        Tuesday
+      </h3>
+      <div
+        class="Dailystyles__Symbol-sc-1i15yny-3 dkvAxZ"
+      >
+        <img
+          alt="Partly cloudy"
+          src="/symbols/svg/partlycloudy_night.svg"
+          title="Partly cloudy"
+        />
+      </div>
+      <div
+        class="Dailystyles__Temperatures-sc-1i15yny-4 dlTnNH"
+      >
+        <b>
+          4
+          °
+        </b>
+         
+        <span>
+          2
+          °
+        </span>
+      </div>
+    </div>
+    <div
+      class="Dailystyles__Day-sc-1i15yny-1 bEMxJL"
+    >
+      <h3
+        class="Dailystyles__DayName-sc-1i15yny-2 gmDgIC"
+      >
+        Wednesday
+      </h3>
+      <div
+        class="Dailystyles__Symbol-sc-1i15yny-3 dkvAxZ"
+      >
+        <img
+          alt="Partly cloudy"
+          src="/symbols/svg/partlycloudy_night.svg"
+          title="Partly cloudy"
+        />
+      </div>
+      <div
+        class="Dailystyles__Temperatures-sc-1i15yny-4 dlTnNH"
+      >
+        <b>
+          3
+          °
+        </b>
+         
+        <span>
+          2
+          °
+        </span>
+      </div>
+    </div>
+    <div
+      class="Dailystyles__Day-sc-1i15yny-1 bEMxJL"
+    >
+      <h3
+        class="Dailystyles__DayName-sc-1i15yny-2 gmDgIC"
+      >
+        Thursday
+      </h3>
+      <div
+        class="Dailystyles__Symbol-sc-1i15yny-3 dkvAxZ"
+      >
+        <img
+          alt="Cloudy"
+          src="/symbols/svg/cloudy.svg"
+          title="Cloudy"
+        />
+      </div>
+      <div
+        class="Dailystyles__Temperatures-sc-1i15yny-4 dlTnNH"
+      >
+        <b>
+          3
+          °
+        </b>
+         
+        <span>
+          2
+          °
+        </span>
+      </div>
+    </div>
+    <div
+      class="Dailystyles__Day-sc-1i15yny-1 bEMxJL"
+    >
+      <h3
+        class="Dailystyles__DayName-sc-1i15yny-2 gmDgIC"
+      >
+        Friday
+      </h3>
+      <div
+        class="Dailystyles__Symbol-sc-1i15yny-3 dkvAxZ"
+      >
+        <img
+          alt="Partly cloudy"
+          src="/symbols/svg/partlycloudy_night.svg"
+          title="Partly cloudy"
+        />
+      </div>
+      <div
+        class="Dailystyles__Temperatures-sc-1i15yny-4 dlTnNH"
+      >
+        <b>
+          5
+          °
+        </b>
+         
+        <span>
+          4
+          °
+        </span>
+      </div>
+    </div>
+    <div
+      class="Dailystyles__Day-sc-1i15yny-1 bEMxJL"
+    >
+      <h3
+        class="Dailystyles__DayName-sc-1i15yny-2 gmDgIC"
+      >
+        Saturday
+      </h3>
+      <div
+        class="Dailystyles__Symbol-sc-1i15yny-3 dkvAxZ"
+      >
+        <img
+          alt="Partly cloudy"
+          src="/symbols/svg/partlycloudy_night.svg"
+          title="Partly cloudy"
+        />
+      </div>
+      <div
+        class="Dailystyles__Temperatures-sc-1i15yny-4 dlTnNH"
+      >
+        <b>
+          6
+          °
+        </b>
+         
+        <span>
+          4
+          °
+        </span>
+      </div>
+    </div>
+    <div
+      class="Dailystyles__Day-sc-1i15yny-1 bEMxJL"
+    >
+      <h3
+        class="Dailystyles__DayName-sc-1i15yny-2 gmDgIC"
+      >
+        Sunday
+      </h3>
+      <div
+        class="Dailystyles__Symbol-sc-1i15yny-3 dkvAxZ"
+      >
+        <img
+          alt="Partly cloudy"
+          src="/symbols/svg/partlycloudy_night.svg"
+          title="Partly cloudy"
+        />
+      </div>
+      <div
+        class="Dailystyles__Temperatures-sc-1i15yny-4 dlTnNH"
+      >
+        <b>
+          6
+          °
+        </b>
+         
+        <span>
+          4
+          °
+        </span>
+      </div>
+    </div>
+    <div
+      class="Dailystyles__Day-sc-1i15yny-1 bEMxJL"
+    >
+      <h3
+        class="Dailystyles__DayName-sc-1i15yny-2 gmDgIC"
+      >
+        Monday
+      </h3>
+      <div
+        class="Dailystyles__Symbol-sc-1i15yny-3 dkvAxZ"
+      >
+        <img
+          alt="Partly cloudy"
+          src="/symbols/svg/partlycloudy_night.svg"
+          title="Partly cloudy"
+        />
+      </div>
+      <div
+        class="Dailystyles__Temperatures-sc-1i15yny-4 dlTnNH"
+      >
+        <b>
+          6
+          °
+        </b>
+         
+        <span>
+          4
+          °
+        </span>
+      </div>
+    </div>
+    <div
+      class="Dailystyles__Day-sc-1i15yny-1 bEMxJL"
+    >
+      <h3
+        class="Dailystyles__DayName-sc-1i15yny-2 gmDgIC"
+      >
+        Tuesday
+      </h3>
+      <div
+        class="Dailystyles__Symbol-sc-1i15yny-3 dkvAxZ"
+      >
+        <img
+          alt="Fair"
+          src="/symbols/svg/fair_night.svg"
+          title="Fair"
+        />
+      </div>
+      <div
+        class="Dailystyles__Temperatures-sc-1i15yny-4 dlTnNH"
+      >
+        <b>
+          7
+          °
+        </b>
+         
+        <span>
+          4
+          °
+        </span>
+      </div>
+    </div>
+    <div
+      class="Dailystyles__Day-sc-1i15yny-1 bEMxJL"
+    >
+      <h3
+        class="Dailystyles__DayName-sc-1i15yny-2 gmDgIC"
+      >
+        Wednesday
+      </h3>
+      <div
+        class="Dailystyles__Symbol-sc-1i15yny-3 dkvAxZ"
+      >
+        <img
+          alt="Partly cloudy"
+          src="/symbols/svg/partlycloudy_night.svg"
+          title="Partly cloudy"
+        />
+      </div>
+      <div
+        class="Dailystyles__Temperatures-sc-1i15yny-4 dlTnNH"
+      >
+        <b>
+          6
+          °
+        </b>
+         
+        <span>
+          4
+          °
+        </span>
+      </div>
+    </div>
+  </section>
+</div>
+`;

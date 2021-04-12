@@ -2,7 +2,7 @@
 
 exports[`Hourly should render properly 1`] = `
 <div>
-  <div
+  <section
     class="Hourlystyles__Container-sc-9ewovh-0 jQdjbP"
   >
     <div
@@ -437,6 +437,6 @@ exports[`Hourly should render properly 1`] = `
         °
       </div>
     </div>
-  </div>
+  </section>
 </div>
 `;
