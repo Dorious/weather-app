@@ -3,7 +3,7 @@
 exports[`Background should render properly 1`] = `
 <div>
   <div
-    class="styles__AbsoluteDiv-i2fsqp-0 Backgroundstyles__Background-sc-1qaidi-0 bjyhA gowCty"
+    class="styles__AbsoluteDiv-i2fsqp-0 Backgroundstyles__Background-sc-1qaidi-0 bjyhA glvJzS"
   />
 </div>
 `;

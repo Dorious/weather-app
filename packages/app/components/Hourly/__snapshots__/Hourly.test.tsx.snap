@@ -14,7 +14,9 @@ exports[`Hourly should render properly 1`] = `
         Now
       </div>
       <img
+        alt="Cloudy"
         src="/symbols/svg/cloudy.svg"
+        title="Cloudy"
       />
       <div>
         7
@@ -30,7 +32,9 @@ exports[`Hourly should render properly 1`] = `
         11
       </div>
       <img
+        alt="Light rain"
         src="/symbols/svg/lightrain.svg"
+        title="Light rain"
       />
       <div>
         7
@@ -46,7 +50,9 @@ exports[`Hourly should render properly 1`] = `
         12
       </div>
       <img
+        alt="Light rain"
         src="/symbols/svg/lightrain.svg"
+        title="Light rain"
       />
       <div>
         7
@@ -62,7 +68,9 @@ exports[`Hourly should render properly 1`] = `
         13
       </div>
       <img
+        alt="Rain"
         src="/symbols/svg/rain.svg"
+        title="Rain"
       />
       <div>
         5
@@ -78,7 +86,9 @@ exports[`Hourly should render properly 1`] = `
         14
       </div>
       <img
+        alt="Light rain"
         src="/symbols/svg/lightrain.svg"
+        title="Light rain"
       />
       <div>
         5
@@ -94,7 +104,9 @@ exports[`Hourly should render properly 1`] = `
         15
       </div>
       <img
+        alt="Rain"
         src="/symbols/svg/rain.svg"
+        title="Rain"
       />
       <div>
         4
@@ -110,7 +122,9 @@ exports[`Hourly should render properly 1`] = `
         16
       </div>
       <img
+        alt="Rain"
         src="/symbols/svg/rain.svg"
+        title="Rain"
       />
       <div>
         4
@@ -126,7 +140,9 @@ exports[`Hourly should render properly 1`] = `
         17
       </div>
       <img
+        alt="Light rain"
         src="/symbols/svg/lightrain.svg"
+        title="Light rain"
       />
       <div>
         4
@@ -142,7 +158,9 @@ exports[`Hourly should render properly 1`] = `
         18
       </div>
       <img
+        alt="Cloudy"
         src="/symbols/svg/cloudy.svg"
+        title="Cloudy"
       />
       <div>
         4
@@ -158,7 +176,9 @@ exports[`Hourly should render properly 1`] = `
         19
       </div>
       <img
+        alt="Cloudy"
         src="/symbols/svg/cloudy.svg"
+        title="Cloudy"
       />
       <div>
         4
@@ -174,7 +194,9 @@ exports[`Hourly should render properly 1`] = `
         20
       </div>
       <img
+        alt="Cloudy"
         src="/symbols/svg/cloudy.svg"
+        title="Cloudy"
       />
       <div>
         4
@@ -190,7 +212,9 @@ exports[`Hourly should render properly 1`] = `
         21
       </div>
       <img
+        alt="Cloudy"
         src="/symbols/svg/cloudy.svg"
+        title="Cloudy"
       />
       <div>
         4
@@ -206,7 +230,9 @@ exports[`Hourly should render properly 1`] = `
         22
       </div>
       <img
+        alt="Cloudy"
         src="/symbols/svg/cloudy.svg"
+        title="Cloudy"
       />
       <div>
         4
@@ -222,7 +248,9 @@ exports[`Hourly should render properly 1`] = `
         23
       </div>
       <img
+        alt="Cloudy"
         src="/symbols/svg/cloudy.svg"
+        title="Cloudy"
       />
       <div>
         4
@@ -238,7 +266,9 @@ exports[`Hourly should render properly 1`] = `
         0
       </div>
       <img
+        alt="Partly cloudy"
         src="/symbols/svg/partlycloudy_night.svg"
+        title="Partly cloudy"
       />
       <div>
         4
@@ -254,7 +284,9 @@ exports[`Hourly should render properly 1`] = `
         1
       </div>
       <img
+        alt="Cloudy"
         src="/symbols/svg/cloudy.svg"
+        title="Cloudy"
       />
       <div>
         4
@@ -270,7 +302,9 @@ exports[`Hourly should render properly 1`] = `
         2
       </div>
       <img
+        alt="Cloudy"
         src="/symbols/svg/cloudy.svg"
+        title="Cloudy"
       />
       <div>
         4
@@ -286,7 +320,9 @@ exports[`Hourly should render properly 1`] = `
         3
       </div>
       <img
+        alt="Cloudy"
         src="/symbols/svg/cloudy.svg"
+        title="Cloudy"
       />
       <div>
         3
@@ -302,7 +338,9 @@ exports[`Hourly should render properly 1`] = `
         4
       </div>
       <img
+        alt="Partly cloudy"
         src="/symbols/svg/partlycloudy_night.svg"
+        title="Partly cloudy"
       />
       <div>
         3
@@ -318,7 +356,9 @@ exports[`Hourly should render properly 1`] = `
         5
       </div>
       <img
+        alt="Partly cloudy"
         src="/symbols/svg/partlycloudy_night.svg"
+        title="Partly cloudy"
       />
       <div>
         3
@@ -334,7 +374,9 @@ exports[`Hourly should render properly 1`] = `
         6
       </div>
       <img
+        alt="Cloudy"
         src="/symbols/svg/cloudy.svg"
+        title="Cloudy"
       />
       <div>
         2
@@ -350,7 +392,9 @@ exports[`Hourly should render properly 1`] = `
         7
       </div>
       <img
+        alt="Cloudy"
         src="/symbols/svg/cloudy.svg"
+        title="Cloudy"
       />
       <div>
         3
@@ -366,7 +410,9 @@ exports[`Hourly should render properly 1`] = `
         8
       </div>
       <img
+        alt="Cloudy"
         src="/symbols/svg/cloudy.svg"
+        title="Cloudy"
       />
       <div>
         4
@@ -382,7 +428,9 @@ exports[`Hourly should render properly 1`] = `
         9
       </div>
       <img
+        alt="Cloudy"
         src="/symbols/svg/cloudy.svg"
+        title="Cloudy"
       />
       <div>
         5
