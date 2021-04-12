@@ -1,4 +1,5 @@
 import { WeatherSymbol } from '@dorious/weather-api/dist/locationforecast/api';
+import { translateSymbolCode } from '../../utils/geolocation';
 
 export type SymbolCodes = `${WeatherSymbol}`;
 
@@ -13,5 +14,13 @@ export default function Symbol({
   ...restProps
 }: SymbolProps): JSX.Element {
   if (!code) return null;
-  return <img src={`/symbols/svg/${code}.svg`} {...restProps} />;
+  const title = translateSymbolCode(code);
+  return (
+    <img
+      src={`/symbols/svg/${code}.svg`}
+      {...restProps}
+      alt={title}
+      title={title}
+    />
+  );
 }
