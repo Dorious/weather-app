@@ -17,6 +17,8 @@ export default memo(function CurrentWeather({
   geolocation,
   weatherData,
 }: CurrentWeatherProps): JSX.Element {
+  if (!weatherData) return null;
+
   const { coords = null } = (geolocation as GeolocationPosition) || {};
   const components = (weatherData?.location.components as any) || {};
 

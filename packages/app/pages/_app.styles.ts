@@ -17,6 +17,12 @@ export const AppBody = styled.div`
   text-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
 `;
 
+export const AppLoading = styled.div`
+  text-align: center;
+  font-size: 1rem;
+  padding-top: 1rem;
+`;
+
 export const AppError = styled.div`
   padding: 1rem 2rem;
   color: #fff;

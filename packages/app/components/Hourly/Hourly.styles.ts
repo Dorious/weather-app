@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const Container = styled.div`
+export const Container = styled.section`
   border-top: 1px solid #fff;
   padding: 1rem 0;
   width: 100%;

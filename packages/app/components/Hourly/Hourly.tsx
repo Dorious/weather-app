@@ -1,14 +1,18 @@
 import { memo } from 'react';
-import { WeatherData } from '../../context/app.types';
+import { ForecastTimeStep } from '@dorious/weather-api/dist/locationforecast';
+
 import Symbol from '../Symbol';
+
 import * as S from './Hourly.styles';
 
 export type HourlyProps = {
-  weatherData: WeatherData;
+  timeseries: ForecastTimeStep[];
 };
 
-export default memo(function Hourly({ weatherData }: HourlyProps): JSX.Element {
-  const timeseries = [...weatherData?.properties.timeseries].splice(0, 24);
+export default memo(function Hourly({
+  timeseries: propTimeseries,
+}: HourlyProps): JSX.Element {
+  const timeseries = [...(propTimeseries || [])].splice(0, 24);
   return (
     <S.Container>
       {timeseries.map((series, idx) => {

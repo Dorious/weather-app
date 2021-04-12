@@ -5,8 +5,8 @@ export type SymbolCodes = `${WeatherSymbol}`;
 
 export type SymbolProps = {
   code: SymbolCodes;
-  width?: number;
-  height?: number;
+  width?: number | string;
+  height?: number | string;
 };
 
 export default function Symbol({

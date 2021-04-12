@@ -1,4 +1,4 @@
-import { useMemo } from 'react';
+import { memo, useMemo } from 'react';
 import { ForecastTimeStep } from '@dorious/weather-api/dist/locationforecast';
 
 import * as S from './Daily.styles';
@@ -8,7 +8,7 @@ export type DailyProps = {
   timeseries: ForecastTimeStep[];
 };
 
-export default function Daily({ timeseries }: DailyProps): JSX.Element {
+export default memo(function Daily({ timeseries }: DailyProps): JSX.Element {
   const dailyTimeseries = useMemo(() => {
     if (!timeseries) return null;
 
@@ -53,12 +53,12 @@ export default function Daily({ timeseries }: DailyProps): JSX.Element {
               <Symbol code={symbol_code} />
             </S.Symbol>
             <S.Temperatures>
-              <b>{Math.round(air_temperature_max)}</b>{' '}
-              <span>{Math.round(air_temperature_min)}</span>
+              <b>{Math.round(air_temperature_max)}&deg;</b>{' '}
+              <span>{Math.round(air_temperature_min)}&deg;</span>
             </S.Temperatures>
           </S.Day>
         );
       })}
     </S.Container>
   );
-}
+});

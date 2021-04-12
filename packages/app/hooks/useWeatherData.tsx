@@ -23,7 +23,7 @@ export function useWeatherData(
 
     if (!loading && (oldLat !== latitude || oldLong !== longitude)) {
       get(`?lat=${latitude}&long=${longitude}`).then((response) => {
-        setWeatherData(response.data);
+        setWeatherData(response.data as WeatherData);
       });
     }
   }, [geolocation]);
