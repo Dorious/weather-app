@@ -14,7 +14,7 @@ export const AppBody = styled.div`
   max-width: 960px;
   margin: 0 auto;
   color: #fff;
-  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
 `;
 
 export const AppError = styled.div`
